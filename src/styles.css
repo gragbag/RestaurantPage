@@ -68,6 +68,11 @@ header button {
 	background-color: #e1edad;
 }
 
+.highlight {
+	background-color: #a1b936;
+	box-shadow: -2px 2px black;
+}
+
 .times {
 	display: flex;
 	flex-direction: column;
