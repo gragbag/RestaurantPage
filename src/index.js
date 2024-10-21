@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 require("./styles.css");
 var home_1 = require("./home");
 var menu_1 = require("./menu");
+var about_1 = require("./about");
 var homeButton = document.querySelector("#home");
 var menuButton = document.querySelector("#menu");
 var aboutButton = document.querySelector("#about");
@@ -31,6 +32,7 @@ aboutButton.addEventListener("click", function (e) {
         return;
     }
     clearContent();
+    (0, about_1.loadAbout)();
     highlightButton(e);
     currentPage = aboutButton;
 });

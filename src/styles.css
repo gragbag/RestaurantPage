@@ -48,7 +48,7 @@ body {
 	margin: 5px;
 }
 
-.location p {
+.location p, .contact p, .about-section p {
 	text-align: center;
 }
 

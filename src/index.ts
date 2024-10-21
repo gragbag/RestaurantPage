@@ -1,6 +1,7 @@
 import "./styles.css";
 import { loadHome } from "./home";
 import { loadMenu } from "./menu";
+import { loadAbout } from "./about";
 
 const homeButton = document.querySelector("#home") as HTMLButtonElement;
 const menuButton = document.querySelector("#menu") as HTMLButtonElement;
@@ -38,6 +39,7 @@ aboutButton.addEventListener("click", (e) => {
 	}
 
 	clearContent();
+	loadAbout();
 	highlightButton(e);
 	currentPage = aboutButton;
 })
